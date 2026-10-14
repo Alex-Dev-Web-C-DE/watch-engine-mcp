@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Alex-Dev-Web-C-DE/watch-engine-mcp",
+  "description": "Currency rates, VAT rates, and tariff rates via Watch Engine. 203 monitors.",
+  "version": "1.0.0",
+  "title": "Watch Engine",
+  "websiteUrl": "https://jsonexlab.com/watch/",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/Alex-Dev-Web-C-DE/watch-engine-mcp"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://watch-engine-mcp.mcpize.run/mcp"
+    }
+  ]
+}
