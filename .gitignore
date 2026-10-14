@@ -5,3 +5,4 @@ node_modules/
 .mcpize/
 *.logdist/
 mcp-publisher.exe
+dist/
