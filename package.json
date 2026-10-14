@@ -1,0 +1,33 @@
+﻿{
+  "name": "watch-engine-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Watch Engine MCP server — currency rates, VAT, tariffs for AI agents",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "currency",
+    "vat",
+    "tariff",
+    "watch-engine"
+  ],
+  "author": "JSONexLab",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
